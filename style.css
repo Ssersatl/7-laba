@@ -1,0 +1,46 @@
+body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   margin: 0;
+   background-color: #e0e6ab;
+   font-family: 'Arial', sans-serif;
+}
+#wrapper__ball {
+   text-align: center;
+   background-color: #fff;
+   border-radius: 10px;
+   padding: 20px;
+   margin: 0 15px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#ball-img {
+   width: 150px;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+#input-question {
+   width: 80%;
+   padding: 10px;
+   margin-bottom: 10px;
+   box-sizing: border-box;
+   border: 1px solid #cccccc;
+   border-radius: 5px;
+}
+#ask-button {
+   background-color: #195df0;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+#ask-button:hover {
+   transition: .3s all ease-in-out;
+   background-color: #923fff;
+}
+p {
+   font-weight: bold;
+   margin-top: 20px;
+}
